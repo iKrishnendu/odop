@@ -7,12 +7,14 @@ import FeaturedProduct from "../components/Route/FeaturedProduct/FeaturedProduct
 import Events from "../components/Events/Events";
 import Sponsored from "../components/Route/Sponsored";
 import Footer from "../components/Layout/Footer";
+import JkMap from "../components/Map/JkMap";
 
 const HomePage = () => {
   return (
     <div>
       <Header activeHeading={1} />
       <Hero />
+      <JkMap />
       {/* <Categories /> */}
       {/* <BestDeals /> */}
       {/* <Events /> */}

@@ -217,11 +217,12 @@ const Header = ({ activeHeading }) => {
           </div>
           <div>
             <Link to="/">
-              <img
+              {/* <img
                 src="https://shopo.quomodothemes.website/assets/images/logo.svg"
                 alt=""
                 className="mt-3 cursor-pointer"
-              />
+              /> */}
+              <b className="text-2xl">ODOP</b>
             </Link>
           </div>
           <div>
