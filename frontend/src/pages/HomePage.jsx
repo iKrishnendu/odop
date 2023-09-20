@@ -13,12 +13,12 @@ const HomePage = () => {
     <div>
       <Header activeHeading={1} />
       <Hero />
-      <Categories />
+      {/* <Categories /> */}
       {/* <BestDeals /> */}
       {/* <Events /> */}
       <FeaturedProduct />
       <Sponsored />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
