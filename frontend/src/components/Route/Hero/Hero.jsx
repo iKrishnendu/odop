@@ -4,6 +4,10 @@ import styles from "../../../styles/styles";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import img_1 from "./../../../Assests/img-1.jpeg";
+import img_2 from "./../../../Assests/img-2.jpeg";
+import img_3 from "./../../../Assests/img-3.jpeg";
+import img_4 from "./../../../Assests/img-4.jpeg";
 
 const Hero = () => {
   return (
@@ -43,25 +47,25 @@ const Hero = () => {
       }}
     >
       <div>
-        <img src="https://odopmart.com/pub/media/magiccart/magicslider/o/d/odop-banner.jpg" />
+        <img src={img_1} style={{ height: "500px" }} />
         {/* <p className="legend">Legend 1</p> */}
       </div>
       <div>
-        <img src="https://odopmart.com/pub/media/magiccart/magicslider/o/d/odop-ghee-banner.jpg" />
+        <img src={img_2} />
         {/* <p className="legend">Legend 2</p> */}
       </div>
       <div>
-        <img src="https://odopmart.com/pub/media/magiccart/magicslider/o/d/odopbanner3.jpg" />
+        <img src={img_3} />
         {/* <p className="legend">Legend 3</p> */}
       </div>
       <div>
-        <img src="https://odopmart.com/pub/media/magiccart/magicslider/o/d/odopbanner2.jpg" />
+        <img src={img_4} />
         {/* <p className="legend">Legend 3</p> */}
       </div>
-      <div>
+      {/* <div>
         <img src="https://odopmart.com/pub/media/magiccart/magicslider/o/d/odopbanner4.jpg" />
-        {/* <p className="legend">Legend 3</p> */}
-      </div>
+        <p className="legend">Legend 3</p>
+      </div> */}
     </Carousel>
 
     // <div

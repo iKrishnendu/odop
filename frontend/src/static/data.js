@@ -677,8 +677,8 @@ export const productData = [
 
 export const footerProductLinks = [
   {
-    name: "About us",
-    link: "/about",
+    name: "About ODOP",
+    link: "/aboutuspage",
   },
   {
     name: "Careers",
