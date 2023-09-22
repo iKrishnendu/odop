@@ -4,7 +4,7 @@ import styles from "../../../styles/styles";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import img_1 from "./../../../Assests/img-1.jpeg";
+import img_1 from "./../../../Assests/img-1.png";
 import img_2 from "./../../../Assests/img-2.jpeg";
 import img_3 from "./../../../Assests/img-3.jpeg";
 import img_4 from "./../../../Assests/img-4.jpeg";
