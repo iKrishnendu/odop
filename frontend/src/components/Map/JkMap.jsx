@@ -221,19 +221,32 @@ const JkMap = () => {
           <table class="table-auto p-5 lg:ml-10">
             <thead>
               <tr>
-                <th>Capital City</th>
-                <th>Population</th>
-                <th>Area</th>
+                <th className="px-6">Capital City</th>
+                <th className="px-6">Population</th>
+                <th className="px-6">Area</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>SRINAGAR/ JAMMU</td>
-                <td>1.25 crores</td>
-                <td>42,241 km2</td>
+                <td className="px-6 py-2">SRINAGAR/ JAMMU</td>
+                <td className="px-6 py-2">1.25 crores</td>
+                <td className="px-6 py-2">42,241 km2</td>
               </tr>
             </tbody>
           </table>
+          <br />
+          <div className="text-center">
+            <b>Administrative Units</b>
+            <br />
+            <div className="flex gap-2 text-center justify-center py-3 ">
+              <button className="bg-orange-400 text-white rounded-md p-2">
+                20 Districcts
+              </button>
+              <button className="bg-sky-600 text-white rounded-md p-2">
+                207 Tehsils
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <br />

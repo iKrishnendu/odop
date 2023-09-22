@@ -16,11 +16,11 @@ export const AboutUs = () => {
           <br />
           <br />
           <p className="you">
-            Odopmart is a one-stop-shop for all ODOP products. From the subtle
-            and elegant Chikankari to the vibrant and baroque Benarasi, from the
+            Odop is a one-stop-shop for all ODOP products. From the subtle and
+            elegant Chikankari to the vibrant and baroque Jammu, from the
             carefully carved Moradabadi metal craft to the finely detailed
-            Bhadohi carpets, find all the beautiful handicrafts of Uttar Pradesh
-            on our website!
+            Bhadohi carpets, find all the beautiful handicrafts of Jammu &
+            Kashmir on our website!
           </p>
         </div>
       </div>
@@ -39,14 +39,14 @@ export const AboutUs = () => {
       </div>
       <div className="row-2">
         <p>
-          Odopmart is an initiative to provide an online platform to small
+          Odop is an initiative to provide an online platform to small
           businesses and artisans, to enable them to enhance sales by reaching
           out to a wider customer base. It aims to digitally empower the
           handicrafts industry of Uttar Pradesh by providing it with the
           necessary physical and digital infrastructure to cater to a national
           audience. This is a one of a kind marketplace working at the
           intersection of modern logistics and ancient crafts made possible by
-          the Uttar Pradesh Government.
+          the Jammu & Kashmir Government.
         </p>
         <div className="flex lg:flex-row gap-2 py-10 justify-center items-center">
           <img

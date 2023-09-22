@@ -18,6 +18,7 @@ import OrderDetailsPage from "../pages/OrderDetailsPage";
 import TrackOrderPage from "../pages/TrackOrderPage";
 import UserInbox from "../pages/UserInbox.jsx";
 import AboutUsPage from "../pages/AboutUsPage";
+import Contact_Us_Page from "../pages/Contact_Us_Page";
 
 export {
   LoginPage,
@@ -40,4 +41,5 @@ export {
   TrackOrderPage,
   UserInbox,
   AboutUsPage,
+  Contact_Us_Page,
 };

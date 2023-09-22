@@ -17,6 +17,10 @@ export const navItems = [
     url: "/events",
   },
   {
+    title: "About ODOP",
+    url: "/aboutuspage",
+  },
+  {
     title: "FAQ",
     url: "/faq",
   },
@@ -767,12 +771,14 @@ export const footercompanyLinks = [
 export const footerSupportLinks = [
   {
     name: "FAQ",
+    link: "/faq",
   },
   {
     name: "Reviews",
   },
   {
     name: "Contact Us",
+    link: "/contact-us",
   },
   {
     name: "Shipping",
